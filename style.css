@@ -1,0 +1,31 @@
+html, body {
+  background-color: #111;
+  color: #eee;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.center-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  height: 100%;
+}
+
+#content {
+  font-size: 8px;
+  line-height: 1;
+}
+
+h2 {
+  margin: 0 0 1rem 0
+}
+
+pre {
+  margin: 0
+}
+
